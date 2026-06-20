@@ -4,52 +4,64 @@ This is a generic readme file to help you get started. Always reference the prov
 
 ![Example Figure](images/doge-i-see-you.gif)
 
-### Video Link
+### **Showcase Your Skills**
 
-The report is due prior to the video. It would be great to embed the video. Ask if you have questions!
+Students will complete a small data science project using a dataset of your choice. The purpose of the assignment is to practice the full workflow of a data project: selecting data, preparing it, analyzing it, modeling or interpreting it, and communicating your results in a clear and reproducible way.
 
-## Introduction (5pts)
+You may use a dataset from Kaggle, a public data portal, a government source, a research dataset, or another legitimate data source. Your project should begin with a clear question or task. For example, you might predict an outcome, classify observations, identify patterns, compare groups, or explain trends in the data.
 
-Provide context regarding your decision maker, organization, and overall decision climate. State your research question. Explain how policy decisions will affect your organization and the broader community.
+I encourage your to leverage online resources and LLMs to complete the requirements. The discussion must be your own words. Cite your use of LLM according to the course syllabus. 
 
-## Data Summary (5pts)
+### **Requirements**
 
-Provide a short description of the nature of the provided data set and explain how these characteristics affect your analysis methodology. Summarize the data set with basic descriptive statistics as applicable.
+This project is scoped such that students can easily understand the requirements and complete the required components in less than a week. Although it combines multiple skills from the class, the effort and time should be similar to 2 course assignments. The project is worth 40 points. The winning strategy is to focus on the requirements, and provide a graduate level product you are proud of.
 
-Notice how we can use different levels of headings to organize the text in a readme file
+-    **The deliverable.** [10 pts]The deliverable will be a very simple github repo that contains all your files required to run your docker container. You do not need any experience with github to complete this. Github.com is simply an online location where you can save and share files. The specific location is called a repository. Novice users can easily initiate a repo and upload files all in their web browser. You do need a github account to get started.  <https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories>
 
-### Brief Data Summary
+    The deliverable on canvas is a link to your repo on github.com
 
-Plots, tables, statistics here
+    -   Your written report can be either
 
-## Data Analytics (50 pts)
+        -   The README.md file or
 
-Provide data analytics that add clarity to the research question. Thoroughly discuss insight obtained from your visualizations and analysis of aggregated, data. Suggest an excursion, and provide supporting analysis. Plots should be well formatted according to best practices learned in class. Discuss the advantages and challenges of performing analysis in your chosen software tool.
+        -   A PDF titled Report.pdf
 
-You can add graphics with the following syntax
+    -   The repo must contain
 
-![Figure 1](images/ttest_vol-01.png)
+        -    Docker file
 
-![Figure 2](images/ttest_bach_new-01.png)
+        -    Docker requirements.txt
 
-### Tableau Dashboard
+        -    Code
 
-If you choose to share analysis in Tableau, you should both include a link to the dashboard and embed screenshots
+        -    Raw data and final data
 
-Tableau link: <https://public.tableau.com/app/profile/marc.chale/viz/tableauclassactivityextractconnection/Dashboard1>
+        -    The report (either a PDF or a Readme.MD file)
 
-## Conclusion (10 pts)
+-    **A clear research question**, prediction task, or analytical objective [2 pts]
 
-Summarize the analytical methodology and provide closure to your analytical story. Succinctly answer the research questions. Highlight the limitations of your findings and recommend future work. Do not make policy recommendations here.
+-    **High quality data set.** Provide a brief discussion describing the raw data. Comment on the strengths and weaknesses of this data set for your use case. [3 pts]
 
-### Limitations
+-    **Data Wrangling.** The raw data is typically not ready for machine learning.  Discuss your process in a paragraph. [10 pts]
 
-Acknowledge any known limitations to data, methods, results
+    1.  **Data Cleaning** Utilize python or a tool of your choice to drop or correct undesirable rows and columns [2 pts]
 
-### Future Work
+    2.  **Data Split** and to separate training data, validation data, and test data as applicable [2pts]
 
-In the future, it would be nice to expand this project with new data sources and analytics tools.
+    3.  **Feature Engineering:** Cultivate appropriate features for training a model. This may be a subset of the columns, or it may require a data transformation. You may use and LLM to advise your approach. Explain it in your own words. [3pts]
 
-## Policy Recommendation (10 pts)
+    4.  **Data Exploration** Provide meaningful tables or visualizations to understand and communicate the data you will use for machine learning.  [3pts]
 
-Introduce a specific policy decision that your decision maker is facing. Provide a data driven recommendation for their decision. Explain probable first and second order effects of the recommendation. Explain the benefits and risks of the recommendation.
+-   **Modelling and Prediction**.  Create an AI or ML model that addresses the research question.  [5 pts]
+
+-    **Results and Conclusions.** Provide a scientific perspective on results, limitations, and possible next steps. Discuss how your tech stack supported your efforts[10 pts]
+
+-    450-600 words
+
+-   One or more visualization
+
+### **Assignment Details**
+
+Points: 40
+
+Submission Type: a url to your github repository
