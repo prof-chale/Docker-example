@@ -1,6 +1,4 @@
-# Final Report
-
-This is a generic readme file to help you get started. Always reference the provided assignment material and rubric on Canvas. One important aspect of the github repo, is that you should include all the analysis code and files your group used. Once cloned to any computer, the user should be able to re-run your analysis code without needing to rename or reconfigure your files. That's the beauty of open source collaboration with git. 10 pts are awarded for version control and 10 pts are awarded for repository functionality.
+## AI / ML Software Tools and Platforms Mini Project
 
 ![Example Figure](images/doge-i-see-you.gif)
 
@@ -16,47 +14,51 @@ I encourage your to leverage online resources and LLMs to complete the requireme
 
 This project is scoped such that students can easily understand the requirements and complete the required components in less than a week. Although it combines multiple skills from the class, the effort and time should be similar to 2 course assignments. The project is worth 40 points. The winning strategy is to focus on the requirements, and provide a graduate level product you are proud of.
 
--    **The deliverable.** [10 pts]The deliverable will be a very simple github repo that contains all your files required to run your docker container. You do not need any experience with github to complete this. Github.com is simply an online location where you can save and share files. The specific location is called a repository. Novice users can easily initiate a repo and upload files all in their web browser. You do need a github account to get started.  <https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories>
+-   **The deliverable.** [10 pts]The deliverable will be a very simple github repo that contains all your files required to run your docker container. You do not need any experience with github to complete this. Github.com is simply an online location where you can save and share files. The specific location is called a repository. Novice users can easily initiate a repo and upload files all in their web browser. You do need a github account to get started.  <https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories>
 
-    The deliverable on canvas is a link to your repo on github.com
+```         
+The deliverable on canvas is a link to your repo on github.com
 
-    -   Your written report can be either
+-   Your written report can be either
 
-        -   The README.md file or
+    -   The README.md file or
 
-        -   A PDF titled Report.pdf
+    -   A PDF titled Report.pdf
 
-    -   The repo must contain
+-   The repo must contain
 
-        -    Docker file
+    -    Docker file
 
-        -    Docker requirements.txt
+    -    Docker requirements.txt
 
-        -    Code
+    -    Code
 
-        -    Raw data and final data
+    -    Raw data and final data
 
-        -    The report (either a PDF or a Readme.MD file)
+    -    The report (either a PDF or a Readme.MD file)
+```
 
--    **A clear research question**, prediction task, or analytical objective [2 pts]
+-   **A clear research question**, prediction task, or analytical objective [2 pts]
 
--    **High quality data set.** Provide a brief discussion describing the raw data. Comment on the strengths and weaknesses of this data set for your use case. [3 pts]
+-   **High quality data set.** Provide a brief discussion describing the raw data. Comment on the strengths and weaknesses of this data set for your use case. [3 pts]
 
--    **Data Wrangling.** The raw data is typically not ready for machine learning.  Discuss your process in a paragraph. [10 pts]
+-   **Data Wrangling.** The raw data is typically not ready for machine learning.  Discuss your process in a paragraph. [10 pts]
 
-    1.  **Data Cleaning** Utilize python or a tool of your choice to drop or correct undesirable rows and columns [2 pts]
+```         
+1.  **Data Cleaning** Utilize python or a tool of your choice to drop or correct undesirable rows and columns [2 pts]
 
-    2.  **Data Split** and to separate training data, validation data, and test data as applicable [2pts]
+2.  **Data Split** and to separate training data, validation data, and test data as applicable [2pts]
 
-    3.  **Feature Engineering:** Cultivate appropriate features for training a model. This may be a subset of the columns, or it may require a data transformation. You may use and LLM to advise your approach. Explain it in your own words. [3pts]
+3.  **Feature Engineering:** Cultivate appropriate features for training a model. This may be a subset of the columns, or it may require a data transformation. You may use and LLM to advise your approach. Explain it in your own words. [3pts]
 
-    4.  **Data Exploration** Provide meaningful tables or visualizations to understand and communicate the data you will use for machine learning.  [3pts]
+4.  **Data Exploration** Provide meaningful tables or visualizations to understand and communicate the data you will use for machine learning.  [3pts]
+```
 
 -   **Modelling and Prediction**.  Create an AI or ML model that addresses the research question.  [5 pts]
 
--    **Results and Conclusions.** Provide a scientific perspective on results, limitations, and possible next steps. Discuss how your tech stack supported your efforts[10 pts]
+-   **Results and Conclusions.** Provide a scientific perspective on results, limitations, and possible next steps. Discuss how your tech stack supported your efforts[10 pts]
 
--    450-600 words
+-   450-600 words
 
 -   One or more visualization
 
