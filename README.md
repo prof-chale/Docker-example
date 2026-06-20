@@ -1,65 +1,55 @@
-<<<<<<< Updated upstream
 # Final Report
 
 This is a generic readme file to help you get started. Always reference the provided assignment material and rubric on Canvas. One important aspect of the github repo, is that you should include all the analysis code and files your group used. Once cloned to any computer, the user should be able to re-run your analysis code without needing to rename or reconfigure your files. That's the beauty of open source collaboration with git. 10 pts are awarded for version control and 10 pts are awarded for repository functionality.
 
 ![Example Figure](images/doge-i-see-you.gif)
-=======
-## **Module 6 - Docker Grand Challenge Tutorial Phase 1**
 
-Icon Progress Bar/Navigation (built in browser, hidden in app)
+### Video Link
 
-[Module Name]{.underline}
+The report is due prior to the video. It would be great to embed the video. Ask if you have questions!
 
-## Phase 1: Run a Docker Container Locally
+## Introduction (5pts)
 
-#### *You can run your code locally. Containerize it, so you can run it anywhere.*
+Provide context regarding your decision maker, organization, and overall decision climate. State your research question. Explain how policy decisions will affect your organization and the broader community.
 
-In Module 1, we practiced running [examples](https://keras.io/examples/) from keras in a local environment. We took the time to install an appropriate version of python and used anaconda to install required libraries. By containerizing an environment, we can easily run it anywhere so long as it docker is installed and the compute resources are available. 
+## Data Summary (5pts)
 
-If you would like to follow along with my specific example, it is available on <https://github.com/prof-chale/Docker-example>
+Provide a short description of the nature of the provided data set and explain how these characteristics affect your analysis methodology. Summarize the data set with basic descriptive statistics as applicable.
 
-#### 0. Install Docker Desktop
+Notice how we can use different levels of headings to organize the text in a readme file
 
-Install the appropriate version for your operating system. Creating a docker account is not required, though it comes with convenient features. 
+### Brief Data Summary
 
-<https://docs.docker.com/desktop/>
+Plots, tables, statistics here
 
-You may verify proper installation by running the command in your local CLI
+## Data Analytics (50 pts)
 
-`docker --version  # Verify the Docker CLI is installed`
+Provide data analytics that add clarity to the research question. Thoroughly discuss insight obtained from your visualizations and analysis of aggregated, data. Suggest an excursion, and provide supporting analysis. Plots should be well formatted according to best practices learned in class. Discuss the advantages and challenges of performing analysis in your chosen software tool.
 
-`docker ps  # Verify Docker Desktop is running and the daemon is reachable`
+You can add graphics with the following syntax
 
-#### 1.  Pull python 3.13 official image
+![Figure 1](images/ttest_vol-01.png)
 
-You can pull the official image from from docker hub using the l*ocal command prompt* *or* from the *docker desktop app*
+![Figure 2](images/ttest_bach_new-01.png)
 
-`docker pull python:3.13`
+### Tableau Dashboard
 
-#### 2. Setup your docker image
+If you choose to share analysis in Tableau, you should both include a link to the dashboard and embed screenshots
 
-#### A. Create a docker requirements.txt file.
+Tableau link: <https://public.tableau.com/app/profile/marc.chale/viz/tableauclassactivityextractconnection/Dashboard1>
 
-The name of this file should be exactly as seen here.
+## Conclusion (10 pts)
 
-Create this text file in the exact location your code and data will be stored. You will need to know the required packages for your desired python project. While you can certainly create a txt file in the command prompt, I prefer creating it in the windows folder. 
+Summarize the analytical methodology and provide closure to your analytical story. Succinctly answer the research questions. Highlight the limitations of your findings and recommend future work. Do not make policy recommendations here.
 
-#### B. Create a requirements file
+### Limitations
 
--   The name of this file should be exactly Dockerfile . Ensure there is no .txt suffix.
+Acknowledge any known limitations to data, methods, results
 
-    -   you can use this command in your local CLI to ensure there is not .txt suffix (which windows sometimes hides)
+### Future Work
 
-    -   `Get-ChildItem | Select-Object Name, Extension, Length`
+In the future, it would be nice to expand this project with new data sources and analytics tools.
 
--   This is the blueprint for creating your custom image from the official image. Take a minute to read about [Writing a Dockerfile](https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/). Feel free to use an LLM to write the dockerfile for your needs. 
+## Policy Recommendation (10 pts)
 
-    -    [Writing a Dockerfile](https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/).
-
--   Here is my [Dockerfile](https://bostoncollege.instructure.com/courses/1683400/files/77210176?wrap=1 "Dockerfile") ; open it with a text editor.
-
-#### 3. Build the image
-
-This might take about 10 minutes. Much of the bottleneck is internet download speed. 
->>>>>>> Stashed changes
+Introduce a specific policy decision that your decision maker is facing. Provide a data driven recommendation for their decision. Explain probable first and second order effects of the recommendation. Explain the benefits and risks of the recommendation.
