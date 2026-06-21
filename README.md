@@ -16,7 +16,6 @@ This project is scoped such that students can easily understand the requirements
 
 -   **The deliverable.** [10 pts]The deliverable will be a very simple github repo that contains all your files required to run your docker container. You do not need any experience with github to complete this. Github.com is simply an online location where you can save and share files. The specific location is called a repository. Novice users can easily initiate a repo and upload files all in their web browser. You do need a github account to get started.  <https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories>
 
-```         
 The deliverable on canvas is a link to your repo on github.com
 
 -   Your written report can be either
@@ -25,34 +24,33 @@ The deliverable on canvas is a link to your repo on github.com
 
     -   A PDF titled Report.pdf
 
+    -   Other report formats are possible with advanced coordination.
+
 -   The repo must contain
 
-    -    Docker file
+    -   Docker file
 
-    -    Docker requirements.txt
+    -   Docker requirements.txt
 
-    -    Code
+    -   Code
 
-    -    Raw data and final data
+    -   Raw data and final data
 
-    -    The report (either a PDF or a Readme.MD file)
-```
+    -   The report (either a PDF or a Readme.MD file)
 
 -   **A clear research question**, prediction task, or analytical objective [2 pts]
 
 -   **High quality data set.** Provide a brief discussion describing the raw data. Comment on the strengths and weaknesses of this data set for your use case. [3 pts]
 
--   **Data Wrangling.** The raw data is typically not ready for machine learning.  Discuss your process in a paragraph. [10 pts]
+-   **Data Wrangling.** The raw data is typically not ready for machine learning.  Discuss your process in a paragraph. [10 pts as broken out below]
 
-```         
-1.  **Data Cleaning** Utilize python or a tool of your choice to drop or correct undesirable rows and columns [2 pts]
+    -   **Data Cleaning** Utilize python or a tool of your choice to drop or correct undesirable rows and columns [2 pts]
 
-2.  **Data Split** and to separate training data, validation data, and test data as applicable [2pts]
+    -   **Data Split** and to separate training data, validation data, and test data as applicable [2pts]
 
-3.  **Feature Engineering:** Cultivate appropriate features for training a model. This may be a subset of the columns, or it may require a data transformation. You may use and LLM to advise your approach. Explain it in your own words. [3pts]
+    -   **Feature Engineering** Cultivate appropriate features for training a model. This may be a subset of the columns, or it may require a data transformation. You may use and LLM to advise your approach. Explain it in your own words. [3pts]
 
-4.  **Data Exploration** Provide meaningful tables or visualizations to understand and communicate the data you will use for machine learning.  [3pts]
-```
+    -   **Data Exploration** Provide meaningful tables or visualizations to understand and communicate the data you will use for machine learning.  [3pts]
 
 -   **Modelling and Prediction**.  Create an AI or ML model that addresses the research question.  [5 pts]
 
