@@ -56,9 +56,9 @@ The deliverable on canvas is a link to your repo on github.com
 
 -   **Results and Conclusions.** Provide a scientific perspective on results, limitations, and possible next steps. Discuss how your tech stack supported your efforts[10 pts]
 
--   450-600 words
+    -   450-600 words for results/conclusion
 
--   One or more visualization
+    -   One or more visualization in results/conclusion
 
 ### **Assignment Details**
 
